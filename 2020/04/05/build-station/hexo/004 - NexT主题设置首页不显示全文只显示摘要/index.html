@@ -20,25 +20,28 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="前情提示 由于Mac下已经安装了其他软件，比如sublime text、atom、Hbuilder X、VS Code以及默认的记事本，后来又安装了Typora，想要md结尾的文件都用Typora软件打开。  解决 单文件修改  选中文件 - 右键 - 打开方式 - 其他 - 选中Typora - 勾选始终以此方式打开 - 打开即可。此种方式对于该文件有效，如果是同md的其他文件还是会以默认方式打">
+  <meta name="description" content="我是开头的摘要、摘录、描述、预览内容，正文不显示哦！">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Mac下指定md打开方式">
-<meta property="og:url" content="http://yoursite.com/2020/04/01/markdown/Mac">
+<meta property="og:title" content="004 - NexT主题设置首页不显示全文只显示摘要">
+<meta property="og:url" content="http://yoursite.com/2020/04/05/build-station/hexo/004%20-%20NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E9%A6%96%E9%A1%B5%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%85%A8%E6%96%87%E5%8F%AA%E6%98%BE%E7%A4%BA%E6%91%98%E8%A6%81/index.html">
 <meta property="og:site_name" content="JaneYork">
-<meta property="og:description" content="前情提示 由于Mac下已经安装了其他软件，比如sublime text、atom、Hbuilder X、VS Code以及默认的记事本，后来又安装了Typora，想要md结尾的文件都用Typora软件打开。  解决 单文件修改  选中文件 - 右键 - 打开方式 - 其他 - 选中Typora - 勾选始终以此方式打开 - 打开即可。此种方式对于该文件有效，如果是同md的其他文件还是会以默认方式打">
+<meta property="og:description" content="我是开头的摘要、摘录、描述、预览内容，正文不显示哦！">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i.imgur.com/jNe8VcX.png">
-<meta property="og:image" content="https://i.imgur.com/fOw6JrI.png">
-<meta property="og:image" content="https://i.imgur.com/N8r9Uum.png">
-<meta property="article:published_time" content="2020-04-01T15:31:42.000Z">
-<meta property="article:modified_time" content="2020-04-04T13:02:03.000Z">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200405164622229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200405174215532.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200405175153147.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200405174345409.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200405180013996.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200405180215660.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70">
+<meta property="article:published_time" content="2020-04-05T15:31:42.000Z">
+<meta property="article:modified_time" content="2020-04-05T10:04:37.000Z">
 <meta property="article:author" content="破该仔">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="建站">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.imgur.com/jNe8VcX.png">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200405164622229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70">
 
-<link rel="canonical" href="http://yoursite.com/2020/04/01/markdown/Mac">
+<link rel="canonical" href="http://yoursite.com/2020/04/05/build-station/hexo/004%20-%20NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E9%A6%96%E9%A1%B5%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%85%A8%E6%96%87%E5%8F%AA%E6%98%BE%E7%A4%BA%E6%91%98%E8%A6%81/">
 
 
 <script id="page-configurations">
@@ -51,7 +54,7 @@
   };
 </script>
 
-  <title>Mac下指定md打开方式 | JaneYork</title>
+  <title>004 - NexT主题设置首页不显示全文只显示摘要 | JaneYork</title>
   
 
 
@@ -186,7 +189,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/01/markdown/Mac???md????/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/05/build-station/hexo/004%20-%20NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E9%A6%96%E9%A1%B5%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%85%A8%E6%96%87%E5%8F%AA%E6%98%BE%E7%A4%BA%E6%91%98%E8%A6%81/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585806191041&di=5b54ee66848ceef31f2d91ba43e4346e&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20191223%2F0b0701031b3d46dbaafa136321615ffb.jpeg">
@@ -199,7 +202,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Mac下指定md打开方式
+          004 - NexT主题设置首页不显示全文只显示摘要
         </h1>
 
         <div class="post-meta">
@@ -208,16 +211,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-04-01 23:31:42" itemprop="dateCreated datePublished" datetime="2020-04-01T23:31:42+08:00">2020-04-01</time>
+              <time title="创建时间：2020-04-05 23:31:42 / 修改时间：18:04:37" itemprop="dateCreated datePublished" datetime="2020-04-05T23:31:42+08:00">2020-04-05</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-04-04 21:02:03" itemprop="dateModified" datetime="2020-04-04T21:02:03+08:00">2020-04-04</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -229,7 +226,7 @@
             </span>
 
           
-            <span id="/2020/04/01/markdown/Mac???md????/" class="post-meta-item leancloud_visitors" data-flag-title="Mac下指定md打开方式" title="阅读次数">
+            <span id="/2020/04/05/build-station/hexo/004%20-%20NexT%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE%E9%A6%96%E9%A1%B5%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%85%A8%E6%96%87%E5%8F%AA%E6%98%BE%E7%A4%BA%E6%91%98%E8%A6%81/" class="post-meta-item leancloud_visitors" data-flag-title="004 - NexT主题设置首页不显示全文只显示摘要" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -241,7 +238,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>258</span>
+              <span>607</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -250,6 +247,7 @@
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
               <span>1 分钟</span>
             </span>
+            <div class="post-description">我是开头的摘要、摘录、描述、预览内容，正文不显示哦！</div>
 
         </div>
       </header>
@@ -260,29 +258,33 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前情提示"><a href="#前情提示" class="headerlink" title="前情提示"></a>前情提示</h3><blockquote>
-<p>由于Mac下已经安装了其他软件，比如sublime text、atom、Hbuilder X、VS Code以及默认的记事本，后来又安装了Typora，想要md结尾的文件都用Typora软件打开。</p>
+        <h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>​        细心的小伙伴应该发现了，安装完NexT主题后，首页是全文显示，拉的很长，看着很不舒服，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200405164622229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>那么我们如何只显示简单的描述，简短的预览呢？</p>
+<a id="more"></a>
+
+<h3 id="解决：显示摘要"><a href="#解决：显示摘要" class="headerlink" title="解决：显示摘要"></a>解决：显示摘要</h3><p>先简单说明一下出现这个原因，默认配置如此，而且如果阅读了NexT官方文档话，文档会说明，建议使用<code>&lt;!-- more --&gt;</code>方式，而且<code>/home/myblog/themes/next/_config.yml</code>配置文件里面默认设置<code>excerpt_description: true</code>，如果你不在文中位置手动引入<code>&lt;!-- more --&gt;</code>，那么将会全文显示，或者你需要将其设置为<code>false</code>，如果设置<code>false</code>，想要显示摘要，需要你手动在<code>Front-matter</code>添加摘要。</p>
+<p>NexT官方说明截图如下：</p>
+<img src="https://img-blog.csdnimg.cn/20200405174215532.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom: 50%;" />
+
+<ol>
+<li>方式一：在文中想要做为摘要地方使用<code>&lt;!-- more --&gt;</code></li>
+<li>方式二：将配置文件设置<code>excerpt_description: false</code>，在文章中手动填写摘要。</li>
+</ol>
+<img src="https://img-blog.csdnimg.cn/20200405175153147.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:50%;" />
+
+<p>具体可参考Hexo文档尝试：<a href="https://hexo.io/docs/front-matter" target="_blank" rel="noopener">https://hexo.io/docs/front-matter</a>个人建议采用方式一。</p>
+<img src="https://img-blog.csdnimg.cn/20200405174345409.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:50%;" />
+
+<h3 id="实践并测试"><a href="#实践并测试" class="headerlink" title="实践并测试"></a>实践并测试</h3><blockquote>
+<p>不过说实在，确实没有以前老版本150字符长度自动截断方便，现在还需要在文中手动加<code>&lt;!-- more --&gt;</code>，也许是性能优化考虑吧！</p>
 </blockquote>
-<h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><ol>
-<li>单文件修改</li>
-</ol>
-<p><code>选中文件 - 右键 - 打开方式 - 其他 - 选中Typora - 勾选始终以此方式打开 - 打开</code>即可。此种方式对于该文件有效，如果是同md的其他文件还是会以默认方式打开。</p>
-<img src="https://i.imgur.com/jNe8VcX.png" style="zoom:50%;" />
+<p>预览效果一：</p>
+<img src="https://img-blog.csdnimg.cn/20200405180013996.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:50%;" />
 
-<img src="https://i.imgur.com/fOw6JrI.png" style="zoom:50%;" />
+<p>预览效果二：（根据你<code>&lt;!-- more --&gt;</code>的）位置显示，包括图片显示，如果开头用了<code>desc</code>会有优先显示</p>
+<img src="https://img-blog.csdnimg.cn/20200405180215660.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMxNzA4NzYz,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:50%;" />
 
-<ol start="2">
-<li>应用全部文件</li>
-</ol>
-<p><code>选中文件 - 右键 - 显示简介 - 打开方式 - 选择应用 -  点击全部更改 - 确定</code>即可，如下图：</p>
-<img src="https://i.imgur.com/N8r9Uum.png" style="zoom:50%;" />
-
-<ol start="3">
-<li>至此，大功告成！</li>
-</ol>
-<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><blockquote>
-<p>此方式适合修改Mac下任意文件默认打开方式！</p>
-</blockquote>
 
     </div>
 
@@ -302,12 +304,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/04/01/build-station/hexo/001%20-%20?????/" rel="prev" title="001 - 安装与使用">
-      <i class="fa fa-chevron-left"></i> 001 - 安装与使用
+    <a href="/2020/04/04/h5+css+js/%E7%BD%91%E9%A1%B5%E7%B4%A0%E8%B0%83/" rel="prev" title="如何网页变成灰色素调">
+      <i class="fa fa-chevron-left"></i> 如何网页变成灰色素调
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/04/01/markdown/Hexo?????/" rel="next" title="Hexo多平台管理">
-      Hexo多平台管理 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/04/06/build-station/hexo/Secure%20FX%E4%B8%8A%E7%A9%BF%E6%96%87%E4%BB%B6%E4%B8%AD%E6%96%87%E7%9B%AE%E5%BD%95%E4%B9%B1%E7%A0%81%E9%97%AE%E9%A2%98/" rel="next" title="Secure FX上穿文件中文目录乱码问题">
+      Secure FX上穿文件中文目录乱码问题 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -367,7 +369,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前情提示"><span class="nav-number">1.</span> <span class="nav-text">前情提示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决"><span class="nav-number">2.</span> <span class="nav-text">解决</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注意"><span class="nav-number">3.</span> <span class="nav-text">注意</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题描述"><span class="nav-number">1.</span> <span class="nav-text">问题描述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决：显示摘要"><span class="nav-number">2.</span> <span class="nav-text">解决：显示摘要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实践并测试"><span class="nav-number">3.</span> <span class="nav-text">实践并测试</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -383,20 +385,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -407,6 +409,9 @@
       </span>
       <span class="links-of-author-item">
         <a href="mailto:janeyork1314@gmail.com" title="E-Mail → mailto:janeyork1314@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:janeyork1314@gmail.com" title="CSDN → mailto:janeyork1314@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-book"></i>CSDN</a>
       </span>
   </div>
 
@@ -443,12 +448,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">15k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">13 分钟</span>
+    <span title="站点阅读时长">14 分钟</span>
 </div>
 
         
